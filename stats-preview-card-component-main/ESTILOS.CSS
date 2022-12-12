@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+.caja{
+    display: flex;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    
+    background-color: hsl(244, 38%, 16%);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 840px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 2px black;
+}
+.titulo{
+    font-family: 'Inter', sans-serif;
+}
+.contenido{
+    margin: 40px 40px 40px 40px;
+}
+.acento{
+    color: hsl(277, 64%, 61%);
+}
+.parrafo{
+    margin: 30px 30px 30px 0px;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.flex{
+    
+    display: flex;
+    margin: auto;
+    width: 120px;
+    height: 70px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    text-anchor: 700px;
+}
+.span{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 1px;
+}
+.span1{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+}
+.span2{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+}
+.compania{
+    display: flex;
+    flex-direction: column;
+    
+    width: 120px;
+    height: 70px;
+    margin: 15px 1px 15px -110px;
+    
+}
+.ejemplo{
+    
+    width: 120px;
+    height: 70px;
+    margin: 15px 15px 15px 15px;
+}
+.like{
+    
+    width: 120px;
+    height: 70px;
+    margin: 15px 15px 15px 15px;
+}
+.foto{
+    width: 420px;
+    
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  position: relative;
+   
+    
+    
+}
+.foto:after{
+	content:'';
+	position: absolute;
+    width: 100%;
+    height: 100%;
+	background-color: rgba(0,0,0,0.6);
+}
+.atributo{
+    display: block;
+    width: 500px;
+    margin: 55px 30px 130px 730px;
+    color: white;
+    
+}
